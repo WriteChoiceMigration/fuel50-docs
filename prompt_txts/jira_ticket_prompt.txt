@@ -1,4 +1,0 @@
-Use `jira-api.sh` to fetch the details of the Jira ticket and write, or edit an existing, 
-markdown file that addresses the ticket. The markdown should be well-structured, 
-following the technical writing style outlined in CLAUDE.md, and should include relevant 
-technical details from `llms-full.txt` and MCP Servers `wandb` and `wb-21fd5541`.

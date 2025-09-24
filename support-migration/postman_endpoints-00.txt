@@ -1,0 +1,694 @@
+Endpoints for: Fuel50 API
+============================
+
+📁 resources
+  📁 v2
+    📁 employees
+      📁 skills-ratings
+        📁 bulk
+            - [POST] Bulk add skills and ratings from external sources
+              /resources/v2/employees/skills-ratings/bulk
+      📁 {id}
+        📁 skills
+            - [GET] Retrieve all skills for an employee
+              /resources/v2/employees/{id}/skills
+      📁 skills
+          - [GET] Returns a paginated list of employee skills profiles.
+            /resources/v2/employees/skills?currentPage=1&pageSize=10
+    📁 skills
+      📁 {id}
+          - [GET] Retrieve Skill
+            /resources/v2/skills/{id}
+        - [GET] Retrieve Skills
+          /resources/v2/skills?currentPage=1&pageSize=10
+    📁 roles
+      📁 {id}
+        📁 skills
+            - [GET] Retrieve skills for a role
+              /resources/v2/roles/{id}/skills
+      📁 skills
+          - [GET] Retrieve Role Skills
+            /resources/v2/roles/skills?currentPage=1&pageSize=10
+  📁 users
+    📁 {id}
+        - [GET] Get User
+          /resources/users/000250186
+        - [POST] Add/Update User
+          /resources/users/DEMO_SALES_REP_001
+        - [DELETE] Delete User
+          /resources/users/DEMO_SALES_REP_001
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Users (V2)
+            /resources/users/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Users
+          /resources/users/bulk
+        - [DELETE] Bulk Delete Users
+          /resources/users/bulk
+    📁 count
+        - [GET] Get Users Count
+          /resources/users/count
+      - [GET] Get All Users
+        /resources/users?page=1&perPage=10
+  📁 user-residential-locations
+    📁 {id}
+        - [GET] Get User Residential Location
+          /resources/user-residential-locations/{id}
+        - [POST] Add/Update User Residential Locations
+          /resources/user-residential-locations/{id}
+        - [DELETE] Delete User Residential Locations
+          /resources/user-residential-locations/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/UpdateUser Residential Locations (V2)
+            /resources/user-residential-locations/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update User Residential Locations
+          /resources/user-residential-locations/bulk
+        - [DELETE] Bulk Delete User Residential Locations
+          /resources/user-residential-locations/bulk
+    📁 count
+        - [GET] Get User Residential Locations Count
+          /resources/user-residential-locations/count
+      - [GET] Get All User Residential Locations
+        /resources/user-residential-locations?page=1&perPage=10
+  📁 talentslevels
+    📁 {id}
+        - [GET] Get Talent Level
+          /resources/talentslevels/{id}
+        - [POST] Add/Update Talent Level
+          /resources/talentslevels/{id}
+        - [DELETE] Delete Talent Level
+          /resources/talentslevels/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Talents Levels (V2)
+            /resources/talentslevels/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Talents Levels
+          /resources/talentslevels/bulk
+        - [DELETE] Bulk Delete Talents Levels
+          /resources/talentslevels/bulk
+    📁 count
+        - [GET] Get Talents Levels Count
+          /resources/talentslevels/count
+      - [GET] Get All Talents Levels
+        /resources/talentslevels?page=1&perPage=10
+  📁 talents
+    📁 {id}
+        - [GET] Get Talent
+          /resources/talents/{id}
+        - [POST] Add/Update Talent
+          /resources/talents/{id}
+        - [DELETE] Delete Talent
+          /resources/talents/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Talents (V2)
+            /resources/talents/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Talents
+          /resources/talents/bulk
+        - [DELETE] Bulk Delete Talents
+          /resources/talents/bulk
+    📁 count
+        - [GET] Get Talents Count
+          /resources/talents/count
+      - [GET] Get All Talents
+        /resources/talents?Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&dateCreatedStart=2023-01-01T00:00:00Z&dateCreatedEnd=2023-01-01T00:00:00Z&page=1&perPage=10
+  📁 skillslevels
+    📁 {id}
+        - [GET] Get Skill Level
+          /resources/skillslevels/{id}
+        - [POST] Add/Update Skill Level
+          /resources/skillslevels/{id}
+        - [DELETE] Delete Skills Levels
+          /resources/skillslevels/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Skills Levels (V2)
+            /resources/skillslevels/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Skills Levels
+          /resources/skillslevels/bulk
+        - [DELETE] Bulk Delete Skills Levels
+          /resources/skillslevels/bulk
+    📁 count
+        - [GET] Get Skills Levels Count
+          /resources/skillslevels/count
+      - [GET] Get All Skills Levels
+        /resources/skillslevels?page=1&perPage=10
+  📁 skills
+    📁 {id}
+        - [GET] Get Skill
+          /resources/skills/{id}
+        - [POST] Add/Update Skill
+          /resources/skills/{id}
+        - [DELETE] Delete Skill
+          /resources/skills/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Skills (V2)
+            /resources/skills/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Skills
+          /resources/skills/bulk
+        - [DELETE] Bulk Delete Skills
+          /resources/skills/bulk
+    📁 count
+        - [GET] Get Skills Count
+          /resources/skills/count
+      - [GET] Get All Skills
+        /resources/skills
+  📁 roles
+    📁 {id}
+        - [GET] Get Role
+          /resources/roles/{id}
+        - [POST] Add/Update Role
+          /resources/roles/SALES_DIRECTOR_001
+        - [DELETE] Delete Role
+          /resources/roles/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Roles (V2)
+            /resources/roles/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Roles
+          /resources/roles/bulk
+        - [DELETE] Bulk Delete Roles
+          /resources/roles/bulk
+    📁 count
+        - [GET] Get Roles Count
+          /resources/roles/count
+      - [GET] Get All Roles
+        /resources/roles?page=abc&perPage=xyz
+  📁 role-property
+    📁 {id}
+        - [GET] Get Role Property
+          /resources/role-property/{id}
+        - [POST] Add/Update Role Property
+          /resources/role-property/{id}
+        - [DELETE] Delete Role Property
+          /resources/role-property/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Role Properties (V2)
+            /resources/role-property/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Role Properties
+          /resources/role-property/bulk
+        - [DELETE] Bulk Delete Role Properties
+          /resources/role-property/bulk
+    📁 count
+        - [GET] Get Role Properties Count
+          /resources/role-property/count
+      - [GET] Get All Role Properties
+        /resources/role-property?page=1&perPage=10
+  📁 role-property-option
+    📁 {id}
+        - [GET] Get Role Property Option
+          /resources/role-property-option/{id}
+        - [POST] Add/Update Role Property Option
+          /resources/role-property-option/{id}
+        - [DELETE] Delete Role Property Option
+          /resources/role-property-option/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Role Properties Options (V2)
+            /resources/role-property-option/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Role Properties Options
+          /resources/role-property-option/bulk
+        - [DELETE] Bulk Delete Role Properties Options
+          /resources/role-property-option/bulk
+    📁 count
+        - [GET] Get Role Properties Options Count
+          /resources/role-property-option/count
+      - [GET] Get All Role Properties Options
+        /resources/role-property-option?page=1&perPage=10
+  📁 role-level-name
+    📁 {id}
+        - [GET] Get Roles Levels Custom Name
+          /resources/role-level-name/{id}
+        - [POST] Add/Update Roles Levels Custom Name
+          /resources/role-level-name/{id}
+        - [DELETE] Delete Roles Levels Custom Name
+          /resources/role-level-name/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Roles Levels Custom Names (V2)
+            /resources/role-level-name/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Roles Levels Custom Names
+          /resources/role-level-name/bulk
+        - [DELETE] Bulk Delete Roles Levels Custom Names
+          /resources/role-level-name/bulk
+    📁 count
+        - [GET] Get Roles Levels Custom Names Count
+          /resources/role-level-name/count
+      - [GET] Get All Roles Levels Custom Names
+        /resources/role-level-name?page=1&perPage=10
+  📁 qualifications
+    📁 {id}
+        - [GET] Get Qualification
+          /resources/qualifications/{id}
+        - [POST] Add/Update Qualification
+          /resources/qualifications/{id}
+        - [DELETE] Delete Qualification
+          /resources/qualifications/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Qualifications (V2)
+            /resources/qualifications/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Qualifications
+          /resources/qualifications/bulk
+        - [DELETE] Bulk Delete Qualifications
+          /resources/qualifications/bulk
+    📁 count
+        - [GET] Get Qualifications Count
+          /resources/qualifications/count
+      - [GET] Get All Qualifications
+        /resources/qualifications?page=1&perPage=10
+  📁 organization-units
+    📁 {id}
+        - [GET] Get Business Organization Unit
+          /resources/organization-units/{id}
+        - [POST] Add/Update Organization Units
+          /resources/organization-units/{id}
+        - [DELETE] Delete Organization Units
+          /resources/organization-units/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Organization Units (V2)
+            /resources/organization-units/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Organization Units
+          /resources/organization-units/bulk
+        - [DELETE] Bulk Delete Organization Units 
+          /resources/organization-units/bulk
+    📁 count
+        - [GET] Get Organization Units Count
+          /resources/organization-units/count
+      - [GET] Get All Organization Units
+        /resources/organization-units?page=1&perPage=10
+  📁 organization-unit-property-options
+    📁 {id}
+        - [GET] Get Organization Units Option
+          /resources/organization-unit-property-options/{id}
+        - [POST] Add/Update Organization Unit Options
+          /resources/organization-unit-property-options/{id}
+        - [DELETE] Delete Organization Units Options
+          /resources/organization-unit-property-options/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Organization Units Options (V2)
+            /resources/organization-unit-property-options/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Organization Unit Options
+          /resources/organization-unit-property-options/bulk
+        - [DELETE] Bulk Delete Organization Units Options 
+          /resources/organization-unit-property-options/bulk
+    📁 count
+        - [GET] Get Organization Units Options Count
+          /resources/organization-unit-property-options/count
+      - [GET] Get All Organization Units Options
+        /resources/organization-unit-property-options?page=1&perPage=10
+  📁 organization-unit-property-categories
+    📁 {id}
+        - [GET] Get Organization Units Category
+          /resources/organization-unit-property-categories/{id}
+        - [POST] Add/Update Organization Units Categories
+          /resources/organization-unit-property-categories/{id}
+        - [DELETE] Delete Organization Units Categories
+          /resources/organization-unit-property-categories/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Organization Units Categories (V2)
+            /resources/organization-unit-property-categories/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Organization Units Categories
+          /resources/organization-unit-property-categories/bulk
+        - [DELETE] Bulk Delete Organization Units Categories 
+          /resources/organization-unit-property-categories/bulk
+    📁 count
+        - [GET] Get Organization Units Categories Count
+          /resources/organization-unit-property-categories/count
+      - [GET] Get All Organization Units Categories
+        /resources/organization-unit-property-categories?page=1&perPage=10
+  📁 organization-unit-mappings
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Organization Unit Mappings (V2)
+            /resources/organization-unit-mappings/v2/bulk
+          - [DELETE] Accepts a list of Organization Unit Mappings to delete
+            /resources/organization-unit-mappings/v2/bulk
+    📁 count
+        - [GET] Get Organization Unit Mappings Count
+          /resources/organization-unit-mappings/count
+      - [GET] Returns a list of the available entities
+        /resources/organization-unit-mappings?page=1&perPage=10
+  📁 locations
+    📁 {id}
+        - [GET] Get Location
+          /resources/locations/{id}
+        - [POST] Add/Update Location
+          /resources/locations/{id}
+        - [DELETE] Delete Location
+          /resources/locations/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Locations (V2)
+            /resources/locations/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Locations
+          /resources/locations/bulk
+        - [DELETE] Bulk Delete Locations
+          /resources/locations/bulk
+    📁 count
+        - [GET] Get Locations Count
+          /resources/locations/count
+      - [GET] Get All Locations
+        /resources/locations?page=1&perPage=10
+  📁 jobs
+    📁 {id}
+        - [GET] Get Job
+          /resources/jobs/{id}
+        - [POST] Add/Update Job
+          /resources/jobs/{id}
+        - [DELETE] Delete Job
+          /resources/jobs/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Jobs (V2)
+            /resources/jobs/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Jobs
+          /resources/jobs/bulk
+        - [DELETE] Bulk Delete Jobs
+          /resources/jobs/bulk
+    📁 count
+        - [GET] Get Jobs Count
+          /resources/jobs/count
+      - [GET] Get All Jobs
+        /resources/jobs?page=1&perPage=10
+  📁 functions
+    📁 {id}
+        - [GET] Get Function
+          /resources/functions/{id}
+        - [POST] Add/Update Function
+          /resources/functions/{id}
+        - [DELETE] Delete Function
+          /resources/functions/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Functions (V2)
+            /resources/functions/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Functions
+          /resources/functions/bulk
+        - [DELETE] Bulk Delete Functions
+          /resources/functions/bulk
+    📁 count
+        - [GET] Get Functions Count
+          /resources/functions/count
+      - [GET] Get All Functions
+        /resources/functions?page=1&perPage=10
+  📁 feedback
+    📁 {id}
+        - [GET] Get Feedback
+          /resources/feedback/{id}
+        - [POST] Add/Update Feedback
+          /resources/feedback/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Feedback (V2)
+            /resources/feedback/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Feedback
+          /resources/feedback/bulk
+    📁 count
+        - [GET] Get Feedback Count
+          /resources/feedback/count
+      - [GET] Get All Feedback
+        /resources/feedback?dateModifiedStart=2022-01-01T00:00:00Z&dateModifiedEnd=2023-01-01T00:00:00Z&userExternalUids=ad aute&userExternalUids=velit eu proident est voluptate&sortField=createdDate&sortOrder=ASCE&page=1&perPage=10
+  📁 experience
+    📁 {id}
+        - [GET] Get Experience
+          /resources/experience/{id}
+        - [POST] Save Experience
+          /resources/experience/{id}
+        - [DELETE] Delete Experience
+          /resources/experience/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Experiences (V2)
+            /resources/experience/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Experiences
+          /resources/experience/bulk
+        - [DELETE] Bulk Delete Experiences
+          /resources/experience/bulk
+    📁 count
+        - [GET] Get Experiences Count
+          /resources/experience/count
+      - [GET] Get All Experiences
+        /resources/experience?page=1&perPage=10
+  📁 demographyoptions
+    📁 {id}
+        - [GET] Get Demography Option
+          /resources/demographyoptions/{id}
+        - [POST] Demography Option Experience
+          /resources/demographyoptions/{id}
+        - [DELETE] Delete Demography Option
+          /resources/demographyoptions/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Demography Options (V2)
+            /resources/demographyoptions/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Demography Options
+          /resources/demographyoptions/bulk
+        - [DELETE] Bulk Demography Option
+          /resources/demographyoptions/bulk
+    📁 count
+        - [GET] Get Demography Options Count
+          /resources/demographyoptions/count
+      - [GET] Get All Demography Options
+        /resources/demographyoptions?page=1&perPage=10
+  📁 demography
+    📁 {id}
+        - [GET] Get Demographic
+          /resources/demography/{id}
+        - [POST] Save Demographic
+          /resources/demography/{id}
+        - [DELETE] Delete Demographic
+          /resources/demography/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Demographics (V2)
+            /resources/demography/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Demographics
+          /resources/demography/bulk
+        - [DELETE] Bulk Delete Demographics
+          /resources/demography/bulk
+    📁 count
+        - [GET] Get Demographics Count
+          /resources/demography/count
+      - [GET] Get All Demographics
+        /resources/demography?page=1&perPage=10
+  📁 competencies
+    📁 categories
+      📁 {id}
+          - [GET] Get Competency Category
+            /resources/competencies/categories/{id}
+          - [POST] Save Competency Category
+            /resources/competencies/categories/{id}
+          - [DELETE] Delete Competency Category
+            /resources/competencies/categories/{id}
+      📁 v2
+        📁 bulk
+            - [POST] Bulk Add/Update Competency Categories (V2)
+              /resources/competencies/categories/v2/bulk
+      📁 bulk
+          - [POST] Bulk Add/Update Competency Categories
+            /resources/competencies/categories/bulk
+          - [DELETE] Bulk Delete Competency Categories
+            /resources/competencies/categories/bulk
+      📁 count
+          - [GET] Get Competency Categories Count
+            /resources/competencies/categories/count
+        - [GET] Get All Competency Categories
+          /resources/competencies/categories?page=1&perPage=10
+  📁 businessunits
+    📁 {id}
+        - [GET] Get Business Unit
+          /resources/businessunits/{id}
+        - [POST] Save Business Unit
+          /resources/businessunits/{id}
+        - [DELETE] Delete Business Unit
+          /resources/businessunits/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Business Units (V2)
+            /resources/businessunits/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Business Units
+          /resources/businessunits/bulk
+        - [DELETE] Bulk Delete Business Units
+          /resources/businessunits/bulk
+    📁 count
+        - [GET] Get Business Units Count
+          /resources/businessunits/count
+      - [GET] Get All Business Units
+        /resources/businessunits?page=1&perPage=10
+  📁 business-locations
+    📁 {id}
+        - [GET] Get Business Location
+          /resources/business-locations/{id}
+        - [POST] Add/Update Business Locations
+          /resources/business-locations/{id}
+        - [DELETE] Delete Business Locations
+          /resources/business-locations/{id}
+    📁 v2
+      📁 bulk
+          - [POST] Bulk Add/Update Business Locations (V2)
+            /resources/business-locations/v2/bulk
+    📁 bulk
+        - [POST] Bulk Add/Update Business Locations
+          /resources/business-locations/bulk
+        - [DELETE] Bulk Delete Business Locations 
+          /resources/business-locations/bulk
+    📁 count
+        - [GET] Get Business Locations Count
+          /resources/business-locations/count
+      - [GET] Get All Business Locations
+        /resources/business-locations?page=1&perPage=10
+  📁 vision
+    📁 {id}
+        - [GET] Get Vision
+          /resources/vision/{id}
+    📁 count
+        - [GET] Get Vision Count
+          /resources/vision/count
+      - [GET] Get All Vision
+        /resources/vision?page=1&perPage=10
+  📁 userskillsratinghistory
+    📁 v2
+        - [GET] Get All User Skills Rating History with skills privacy settings
+          /resources/userskillsratinghistory/v2?includePrivacyChanges=false&userId=sed Lorem pariatur proident minim&Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&page=1&perPage=10
+    📁 count
+        - [GET] Get User Skill Rating History
+          /resources/userskillsratinghistory/count
+      - [GET] Get All User Skill Rating History
+        /resources/userskillsratinghistory?Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&userId=sed Lorem pariatur proident minim&page=1&perPage=10
+  📁 user-certifications
+    📁 getAllForUser
+      📁 {userUid}
+          - [GET] Get All User Certifications
+            /resources/user-certifications/getAllForUser/:userUid
+    📁 count
+        - [GET] Get Users Certifications Count
+          /resources/user-certifications/count
+      - [GET] Get All Users Certifications
+        /resources/user-certifications?page=1&perPage=10
+  📁 talentratinghistory
+    📁 v2
+        - [GET] Get All User Talents Rating History with skills privacy settings
+          /resources/talentratinghistory/v2?includePrivacyChanges=false&userId=sed Lorem pariatur proident minim&Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&page=1&perPage=10
+    📁 count
+        - [GET] Get User Talent Rating History Count
+          /resources/talentratinghistory/count
+      - [GET] Get All User Talent Rating History
+        /resources/talentratinghistory?Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&userId=sed Lorem pariatur proident minim&page=1&perPage=10
+  📁 sessionnotes
+    📁 count
+        - [GET] Get Session Notes Count
+          /resources/sessionnotes/count
+      - [GET] Get All Session Notes
+        /resources/sessionnotes?page=1&perPage=10
+  📁 rolestalents
+    📁 getAllForRoleAfterDate
+        - [GET] Roles skills by role and date after
+          /resources/rolestalents/getAllForRoleAfterDate?page=45906996&perPage=45906996&roleId=Excepteur qui quis anim&dateAfter=Excepteur qui quis anim
+    📁 count
+        - [GET] Returns the number of the existing active entities
+          /resources/rolestalents/count
+      - [GET] Returns a list of the available entities
+        /resources/rolestalents?page=1&perPage=10
+  📁 rolesskills
+    📁 getAllForRoleAfterDate
+        - [GET] Roles skills by role and date after
+          /resources/rolesskills/getAllForRoleAfterDate?page=45906996&perPage=45906996&roleId=Excepteur qui quis anim&dateAfter=Excepteur qui quis anim
+    📁 count
+        - [GET] Returns the number of the existing active entities
+          /resources/rolesskills/count
+      - [GET] Returns a list of the available entities
+        /resources/rolesskills?page=1&perPage=10
+  📁 purpose
+    📁 {id}
+        - [GET] Get Purpose
+          /resources/purpose/{id}
+    📁 count
+        - [GET] Get Purpose Count
+          /resources/purpose/count
+      - [GET] Get All Purpose
+        /resources/purpose?page=1&perPage=10
+  📁 privacy-settings
+    📁 v2
+        - [GET] Returns a list of user privacy decisions grouped by user
+          /resources/privacy-settings/v2?page=1&perPage=10&userExternalId=nostrud sit&privacySettingIds=Ut consequat aute dolore Duis&dateFrom=2023-01-01T12:30:00Z&dateTo=2024-01-01T12:30:00Z
+      - [GET] Get All User Privacy Settings
+        /resources/privacy-settings?page=1&perPage=10&User Ids=ad aute&User Ids=velit eu proident est voluptate&Privacy Setting Ids=GOALS_ACTIONS&Privacy Setting Ids=GOALS_ACTIONS
+  📁 mentorrequest
+    📁 count
+        - [GET] Get Mentor Requests Count
+          /resources/mentorrequest/count
+      - [GET] Get All Mentor Requests
+        /resources/mentorrequest?page=1&perPage=10
+  📁 mentormentees
+    📁 count
+        - [GET] Get Mentor Mentees Count
+          /resources/mentormentees/count
+      - [GET] Get All Mentor Mentees
+        /resources/mentormentees?page=1&perPage=10
+  📁 goals
+    📁 {id}
+        - [GET] Get Goal
+          /resources/goals/{id}
+        - [DELETE] Delete Goal
+          /resources/goals/{id}
+    📁 v2
+        - [GET] Get All Goals with privacy settings
+          /resources/goals/v2?includePrivacyChanges=true&assigneeId=sed Lorem pariatur proident minim&status=ACTIVE&Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&page=1&perPage=10
+    📁 count
+        - [GET] Get Goals Count
+          /resources/goals/count
+    📁 bulk
+        - [DELETE] Bulk Delete Goals
+          /resources/goals/bulk
+      - [GET] Get All Goals
+        /resources/goals?Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&assigneeId=sed Lorem pariatur proident minim&status=ACTIVE&page=1&perPage=10
+  📁 gigs
+    📁 {id}
+        - [GET] Get Gig
+          /resources/gigs/{id}
+    📁 count
+        - [GET] Get Gigs Count
+          /resources/gigs/count
+      - [GET] Get All Gigs
+        /resources/gigs
+  📁 actions
+    📁 {id}
+        - [GET] Get Actions
+          /resources/actions/{id}
+    📁 v2
+        - [GET] Get All actions with privacy settings
+          /resources/actions/v2?includePrivacyChanges=true&assigneeId=Excepteur qui quis anim&status=ACTIVE&Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&page=1&perPage=10
+    📁 count
+        - [GET] Get Actions Count
+          /resources/actions/count
+      - [GET] Get All Actions
+        /resources/actions?Start Date=2022-01-01T00:00:00Z&End Date=2023-01-01T00:00:00Z&assigneeId=Excepteur qui quis anim&status=ACTIVE&page=1&perPage=10

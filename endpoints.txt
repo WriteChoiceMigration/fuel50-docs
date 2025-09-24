@@ -1,0 +1,765 @@
+API Endpoints and Available Methods
+===================================
+
+Endpoint: /resources/v2/employees/skills-ratings/bulk
+
+  - POST
+
+Endpoint: /resources/v2/employees/{id}/skills
+
+  - GET
+
+Endpoint: /resources/v2/employees/skills
+
+  - GET
+
+Endpoint: /resources/v2/skills/{id}
+
+  - GET
+
+Endpoint: /resources/v2/skills
+
+  - GET
+
+Endpoint: /resources/v2/roles/{id}/skills
+
+  - GET
+
+Endpoint: /resources/v2/roles/skills
+
+  - GET
+
+Endpoint: /resources/users/000250186
+
+  - GET
+
+Endpoint: /resources/users/DEMO_SALES_REP_001
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/users/v2/bulk
+
+  - POST
+
+Endpoint: /resources/users/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/users/count
+
+  - GET
+
+Endpoint: /resources/users
+
+  - GET
+
+Endpoint: /resources/user-residential-locations/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/user-residential-locations/v2/bulk
+
+  - POST
+
+Endpoint: /resources/user-residential-locations/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/user-residential-locations/count
+
+  - GET
+
+Endpoint: /resources/user-residential-locations
+
+  - GET
+
+Endpoint: /resources/talentslevels/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/talentslevels/v2/bulk
+
+  - POST
+
+Endpoint: /resources/talentslevels/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/talentslevels/count
+
+  - GET
+
+Endpoint: /resources/talentslevels
+
+  - GET
+
+Endpoint: /resources/talents/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/talents/v2/bulk
+
+  - POST
+
+Endpoint: /resources/talents/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/talents/count
+
+  - GET
+
+Endpoint: /resources/talents
+
+  - GET
+
+Endpoint: /resources/skillslevels/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/skillslevels/v2/bulk
+
+  - POST
+
+Endpoint: /resources/skillslevels/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/skillslevels/count
+
+  - GET
+
+Endpoint: /resources/skillslevels
+
+  - GET
+
+Endpoint: /resources/skills/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/skills/v2/bulk
+
+  - POST
+
+Endpoint: /resources/skills/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/skills/count
+
+  - GET
+
+Endpoint: /resources/skills
+
+  - GET
+
+Endpoint: /resources/roles/{id}
+
+  - GET
+  - DELETE
+
+Endpoint: /resources/roles/SALES_DIRECTOR_001
+
+  - POST
+
+Endpoint: /resources/roles/v2/bulk
+
+  - POST
+
+Endpoint: /resources/roles/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/roles/count
+
+  - GET
+
+Endpoint: /resources/roles
+
+  - GET
+
+Endpoint: /resources/role-property/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/role-property/v2/bulk
+
+  - POST
+
+Endpoint: /resources/role-property/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/role-property/count
+
+  - GET
+
+Endpoint: /resources/role-property
+
+  - GET
+
+Endpoint: /resources/role-property-option/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/role-property-option/v2/bulk
+
+  - POST
+
+Endpoint: /resources/role-property-option/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/role-property-option/count
+
+  - GET
+
+Endpoint: /resources/role-property-option
+
+  - GET
+
+Endpoint: /resources/role-level-name/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/role-level-name/v2/bulk
+
+  - POST
+
+Endpoint: /resources/role-level-name/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/role-level-name/count
+
+  - GET
+
+Endpoint: /resources/role-level-name
+
+  - GET
+
+Endpoint: /resources/qualifications/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/qualifications/v2/bulk
+
+  - POST
+
+Endpoint: /resources/qualifications/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/qualifications/count
+
+  - GET
+
+Endpoint: /resources/qualifications
+
+  - GET
+
+Endpoint: /resources/organization-units/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/organization-units/v2/bulk
+
+  - POST
+
+Endpoint: /resources/organization-units/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/organization-units/count
+
+  - GET
+
+Endpoint: /resources/organization-units
+
+  - GET
+
+Endpoint: /resources/organization-unit-property-options/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/organization-unit-property-options/v2/bulk
+
+  - POST
+
+Endpoint: /resources/organization-unit-property-options/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/organization-unit-property-options/count
+
+  - GET
+
+Endpoint: /resources/organization-unit-property-options
+
+  - GET
+
+Endpoint: /resources/organization-unit-property-categories/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/organization-unit-property-categories/v2/bulk
+
+  - POST
+
+Endpoint: /resources/organization-unit-property-categories/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/organization-unit-property-categories/count
+
+  - GET
+
+Endpoint: /resources/organization-unit-property-categories
+
+  - GET
+
+Endpoint: /resources/organization-unit-mappings/v2/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/organization-unit-mappings/count
+
+  - GET
+
+Endpoint: /resources/organization-unit-mappings
+
+  - GET
+
+Endpoint: /resources/locations/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/locations/v2/bulk
+
+  - POST
+
+Endpoint: /resources/locations/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/locations/count
+
+  - GET
+
+Endpoint: /resources/locations
+
+  - GET
+
+Endpoint: /resources/jobs/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/jobs/v2/bulk
+
+  - POST
+
+Endpoint: /resources/jobs/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/jobs/count
+
+  - GET
+
+Endpoint: /resources/jobs
+
+  - GET
+
+Endpoint: /resources/functions/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/functions/v2/bulk
+
+  - POST
+
+Endpoint: /resources/functions/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/functions/count
+
+  - GET
+
+Endpoint: /resources/functions
+
+  - GET
+
+Endpoint: /resources/feedback/{id}
+
+  - GET
+  - POST
+
+Endpoint: /resources/feedback/v2/bulk
+
+  - POST
+
+Endpoint: /resources/feedback/bulk
+
+  - POST
+
+Endpoint: /resources/feedback/count
+
+  - GET
+
+Endpoint: /resources/feedback
+
+  - GET
+
+Endpoint: /resources/experience/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/experience/v2/bulk
+
+  - POST
+
+Endpoint: /resources/experience/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/experience/count
+
+  - GET
+
+Endpoint: /resources/experience
+
+  - GET
+
+Endpoint: /resources/demographyoptions/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/demographyoptions/v2/bulk
+
+  - POST
+
+Endpoint: /resources/demographyoptions/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/demographyoptions/count
+
+  - GET
+
+Endpoint: /resources/demographyoptions
+
+  - GET
+
+Endpoint: /resources/demography/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/demography/v2/bulk
+
+  - POST
+
+Endpoint: /resources/demography/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/demography/count
+
+  - GET
+
+Endpoint: /resources/demography
+
+  - GET
+
+Endpoint: /resources/competencies/categories/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/competencies/categories/v2/bulk
+
+  - POST
+
+Endpoint: /resources/competencies/categories/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/competencies/categories/count
+
+  - GET
+
+Endpoint: /resources/competencies/categories
+
+  - GET
+
+Endpoint: /resources/businessunits/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/businessunits/v2/bulk
+
+  - POST
+
+Endpoint: /resources/businessunits/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/businessunits/count
+
+  - GET
+
+Endpoint: /resources/businessunits
+
+  - GET
+
+Endpoint: /resources/business-locations/{id}
+
+  - GET
+  - POST
+  - DELETE
+
+Endpoint: /resources/business-locations/v2/bulk
+
+  - POST
+
+Endpoint: /resources/business-locations/bulk
+
+  - POST
+  - DELETE
+
+Endpoint: /resources/business-locations/count
+
+  - GET
+
+Endpoint: /resources/business-locations
+
+  - GET
+
+Endpoint: /resources/vision/{id}
+
+  - GET
+
+Endpoint: /resources/vision/count
+
+  - GET
+
+Endpoint: /resources/vision
+
+  - GET
+
+Endpoint: /resources/userskillsratinghistory/v2
+
+  - GET
+
+Endpoint: /resources/userskillsratinghistory/count
+
+  - GET
+
+Endpoint: /resources/userskillsratinghistory
+
+  - GET
+
+Endpoint: /resources/user-certifications/getAllForUser/{userUid}
+
+  - GET
+
+Endpoint: /resources/user-certifications/count
+
+  - GET
+
+Endpoint: /resources/user-certifications
+
+  - GET
+
+Endpoint: /resources/talentratinghistory/v2
+
+  - GET
+
+Endpoint: /resources/talentratinghistory/count
+
+  - GET
+
+Endpoint: /resources/talentratinghistory
+
+  - GET
+
+Endpoint: /resources/sessionnotes/count
+
+  - GET
+
+Endpoint: /resources/sessionnotes
+
+  - GET
+
+Endpoint: /resources/rolestalents/getAllForRoleAfterDate
+
+  - GET
+
+Endpoint: /resources/rolestalents/count
+
+  - GET
+
+Endpoint: /resources/rolestalents
+
+  - GET
+
+Endpoint: /resources/rolesskills/getAllForRoleAfterDate
+
+  - GET
+
+Endpoint: /resources/rolesskills/count
+
+  - GET
+
+Endpoint: /resources/rolesskills
+
+  - GET
+
+Endpoint: /resources/purpose/{id}
+
+  - GET
+
+Endpoint: /resources/purpose/count
+
+  - GET
+
+Endpoint: /resources/purpose
+
+  - GET
+
+Endpoint: /resources/privacy-settings/v2
+
+  - GET
+
+Endpoint: /resources/privacy-settings
+
+  - GET
+
+Endpoint: /resources/mentorrequest/count
+
+  - GET
+
+Endpoint: /resources/mentorrequest
+
+  - GET
+
+Endpoint: /resources/mentormentees/count
+
+  - GET
+
+Endpoint: /resources/mentormentees
+
+  - GET
+
+Endpoint: /resources/goals/{id}
+
+  - GET
+  - DELETE
+
+Endpoint: /resources/goals/v2
+
+  - GET
+
+Endpoint: /resources/goals/count
+
+  - GET
+
+Endpoint: /resources/goals/bulk
+
+  - DELETE
+
+Endpoint: /resources/goals
+
+  - GET
+
+Endpoint: /resources/gigs/{id}
+
+  - GET
+
+Endpoint: /resources/gigs/count
+
+  - GET
+
+Endpoint: /resources/gigs
+
+  - GET
+
+Endpoint: /resources/actions/{id}
+
+  - GET
+
+Endpoint: /resources/actions/v2
+
+  - GET
+
+Endpoint: /resources/actions/count
+
+  - GET
+
+Endpoint: /resources/actions
+
+  - GET
+
