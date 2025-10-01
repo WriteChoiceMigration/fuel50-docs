@@ -100,23 +100,23 @@
               {
                 "group": "Skills & Competencies",
                 "pages": [
-                  "reference/retrieve-skill",
-                  "reference/retrieve-skills"
+                  "/openapi.yaml GET /resources/v2/skills/{id}",
+                  "/openapi.yaml GET /resources/v2/skills"
                 ]
               },
               {
                 "group": "Employee Profiles",
                 "pages": [
-                  "reference/bulk-add-skills-and-ratings-from-external-sources",
-                  "reference/retrieve-all-skills-for-an-employee",
-                  "reference/returns-a-paginated-list-of-employee-skills-profiles"
+                  "/openapi.yaml POST /resources/v2/employees/skills-ratings/bulk",
+                  "/openapi.yaml GET /resources/v2/employees/{id}/skills",
+                  "/openapi.yaml GET /resources/v2/employees/skills"
                 ]
               },
               {
                 "group": "Roles & Requirements",
                 "pages": [
-                  "reference/retrieve-skills-for-a-role",
-                  "reference/retrieve-role-skills"
+                  "/openapi.yaml GET /resources/v2/roles/{id}/skills",
+                  "/openapi.yaml GET /resources/v2/roles/skills"
                 ]
               }
             ]
@@ -130,66 +130,66 @@
                   {
                     "group": "Skills API",
                     "pages": [
-                      "reference/get-skill",
-                      "reference/addupdate-skill",
-                      "reference/delete-skill",
-                      "reference/bulk-addupdate-skills-v2",
-                      "reference/bulk-addupdate-skills",
-                      "reference/bulk-delete-skills",
-                      "reference/get-skills-count",
-                      "reference/get-all-skills"
+                      "/openapi.yaml GET /resources/skills/{id}",
+                      "/openapi.yaml POST /resources/skills/{id}",
+                      "/openapi.yaml DELETE /resources/skills/{id}",
+                      "/openapi.yaml POST /resources/skills/v2/bulk",
+                      "/openapi.yaml POST /resources/skills/bulk",
+                      "/openapi.yaml DELETE /resources/skills/bulk",
+                      "/openapi.yaml GET /resources/skills/count",
+                      "/openapi.yaml GET /resources/skills"
                     ]
                   },
                   {
                     "group": "Talents API",
                     "pages": [
-                      "reference/get-talent",
-                      "reference/addupdate-talent",
-                      "reference/delete-talent",
-                      "reference/bulk-addupdate-talents-v2",
-                      "reference/bulk-addupdate-talents",
-                      "reference/bulk-delete-talents",
-                      "reference/get-talents-count",
-                      "reference/get-all-talents"
+                      "/openapi.yaml GET /resources/talents/{id}",
+                      "/openapi.yaml POST /resources/talents/{id}",
+                      "/openapi.yaml DELETE /resources/talents/{id}",
+                      "/openapi.yaml POST /resources/talents/v2/bulk",
+                      "/openapi.yaml POST /resources/talents/bulk",
+                      "/openapi.yaml DELETE /resources/talents/bulk",
+                      "/openapi.yaml GET /resources/talents/count",
+                      "/openapi.yaml GET /resources/talents"
                     ]
                   },
                   {
                     "group": "Skills Levels API",
                     "pages": [
-                      "reference/get-skill-level",
-                      "reference/addupdate-skill-level",
-                      "reference/delete-skills-levels",
-                      "reference/bulk-addupdate-skills-levels-v2",
-                      "reference/bulk-addupdate-skills-levels",
-                      "reference/bulk-delete-skills-levels",
-                      "reference/get-skills-levels-count",
-                      "reference/get-all-skills-levels"
+                      "/openapi.yaml GET /resources/skillslevels/{id}",
+                      "/openapi.yaml POST /resources/skillslevels/{id}",
+                      "/openapi.yaml DELETE /resources/skillslevels/{id}",
+                      "/openapi.yaml POST /resources/skillslevels/v2/bulk",
+                      "/openapi.yaml POST /resources/skillslevels/bulk",
+                      "/openapi.yaml DELETE /resources/skillslevels/bulk",
+                      "/openapi.yaml GET /resources/skillslevels/count",
+                      "/openapi.yaml GET /resources/skillslevels"
                     ]
                   },
                   {
                     "group": "Talent Levels API",
                     "pages": [
-                      "reference/get-talent-level",
-                      "reference/addupdate-talent-level",
-                      "reference/delete-talent-level",
-                      "reference/bulk-addupdate-talents-levels-v2",
-                      "reference/bulk-addupdate-talents-levels",
-                      "reference/bulk-delete-talents-levels",
-                      "reference/get-talents-levels-count",
-                      "reference/get-all-talents-levels"
+                      "/openapi.yaml GET /resources/talentslevels/{id}",
+                      "/openapi.yaml POST /resources/talentslevels/{id}",
+                      "/openapi.yaml DELETE /resources/talentslevels/{id}",
+                      "/openapi.yaml POST /resources/talentslevels/v2/bulk",
+                      "/openapi.yaml POST /resources/talentslevels/bulk",
+                      "/openapi.yaml DELETE /resources/talentslevels/bulk",
+                      "/openapi.yaml GET /resources/talentslevels/count",
+                      "/openapi.yaml GET /resources/talentslevels"
                     ]
                   },
                   {
                     "group": "Competency Categories API",
                     "pages": [
-                      "reference/get-competency-category",
-                      "reference/save-competency-category",
-                      "reference/delete-competency-category",
-                      "reference/bulk-addupdate-competency-categories-v2",
-                      "reference/bulk-addupdate-competency-categories",
-                      "reference/bulk-delete-competency-categories",
-                      "reference/get-competency-categories-count",
-                      "reference/get-all-competency-categories"
+                      "/openapi.yaml GET /resources/competencies/categories/{id}",
+                      "/openapi.yaml POST /resources/competencies/categories/{id}",
+                      "/openapi.yaml DELETE /resources/competencies/categories/{id}",
+                      "/openapi.yaml POST /resources/competencies/categories/v2/bulk",
+                      "/openapi.yaml POST /resources/competencies/categories/bulk",
+                      "/openapi.yaml DELETE /resources/competencies/categories/bulk",
+                      "/openapi.yaml GET /resources/competencies/categories/count",
+                      "/openapi.yaml GET /resources/competencies/categories"
                     ]
                   }
                 ]
@@ -202,64 +202,64 @@
               {
                 "group": "Users API",
                 "pages": [
-                  "reference/get-user",
-                  "reference/addupdate-user",
-                  "reference/delete-user",
-                  "reference/bulk-addupdate-users-v2",
-                  "reference/bulk-addupdate-users",
-                  "reference/bulk-delete-users",
-                  "reference/get-users-count",
-                  "reference/get-all-users"
+                  "/openapi.yaml GET /resources/users/000250186",
+                  "/openapi.yaml POST /resources/users/DEMO_SALES_REP_001",
+                  "/openapi.yaml DELETE /resources/users/DEMO_SALES_REP_001",
+                  "/openapi.yaml POST /resources/users/v2/bulk",
+                  "/openapi.yaml POST /resources/users/bulk",
+                  "/openapi.yaml DELETE /resources/users/bulk",
+                  "/openapi.yaml GET /resources/users/count",
+                  "/openapi.yaml GET /resources/users"
                 ]
               },
               {
                 "group": "User Certifications API",
                 "pages": [
-                  "reference/get-all-user-certifications",
-                  "reference/get-users-certifications-count",
-                  "reference/get-all-users-certifications"
+                  "/openapi.yaml GET /resources/user-certifications/getAllForUser/{userUid}",
+                  "/openapi.yaml GET /resources/user-certifications/count",
+                  "/openapi.yaml GET /resources/user-certifications"
                 ]
               },
               {
                 "group": "User Locations API",
                 "pages": [
-                  "reference/get-location",
-                  "reference/addupdate-location",
-                  "reference/delete-location",
-                  "reference/bulk-addupdate-locations-v2",
-                  "reference/bulk-addupdate-locations",
-                  "reference/bulk-delete-locations",
-                  "reference/get-locations-count",
-                  "reference/get-all-locations"
+                  "/openapi.yaml GET /resources/locations/{id}",
+                  "/openapi.yaml POST /resources/locations/{id}",
+                  "/openapi.yaml DELETE /resources/locations/{id}",
+                  "/openapi.yaml POST /resources/locations/v2/bulk",
+                  "/openapi.yaml POST /resources/locations/bulk",
+                  "/openapi.yaml DELETE /resources/locations/bulk",
+                  "/openapi.yaml GET /resources/locations/count",
+                  "/openapi.yaml GET /resources/locations"
                 ]
               },
               {
                 "group": "User Residential Locations API",
                 "pages": [
-                  "reference/get-user-residential-location",
-                  "reference/addupdate-user-residential-locations",
-                  "reference/delete-user-residential-locations",
-                  "reference/bulk-addupdateuser-residential-locations-v2",
-                  "reference/bulk-addupdate-user-residential-locations",
-                  "reference/bulk-delete-user-residential-locations",
-                  "reference/get-user-residential-locations-count",
-                  "reference/get-all-user-residential-locations"
+                  "/openapi.yaml GET /resources/user-residential-locations/{id}",
+                  "/openapi.yaml POST /resources/user-residential-locations/{id}",
+                  "/openapi.yaml DELETE /resources/user-residential-locations/{id}",
+                  "/openapi.yaml POST /resources/user-residential-locations/v2/bulk",
+                  "/openapi.yaml POST /resources/user-residential-locations/bulk",
+                  "/openapi.yaml DELETE /resources/user-residential-locations/bulk",
+                  "/openapi.yaml GET /resources/user-residential-locations/count",
+                  "/openapi.yaml GET /resources/user-residential-locations"
                 ]
               },
               {
                 "group": "User Skill Rating History API",
                 "pages": [
-                  "reference/get-all-user-skills-rating-history-with-skills-privacy-settings",
-                  "reference/get-user-skill-rating-history",
-                  "reference/get-all-user-skill-rating-history"
+                  "/openapi.yaml GET /resources/userskillsratinghistory/v2",
+                  "/openapi.yaml GET /resources/userskillsratinghistory/count",
+                  "/openapi.yaml GET /resources/userskillsratinghistory"
                 ]
               },
               {
                 "group": "User Talent Rating History API",
                 "pages": [
-                  "reference/get-all-user-talents-rating-history-with-skills-privacy-settings",
-                  "reference/get-user-talent-rating-history-count",
-                  "reference/get-all-user-talent-rating-history"
+                  "/openapi.yaml GET /resources/talentratinghistory/v2",
+                  "/openapi.yaml GET /resources/talentratinghistory/count",
+                  "/openapi.yaml GET /resources/talentratinghistory"
                 ]
               }
             ]
@@ -270,69 +270,69 @@
               {
                 "group": "Roles API",
                 "pages": [
-                  "reference/get-role",
-                  "reference/addupdate-role",
-                  "reference/delete-role",
-                  "reference/bulk-addupdate-roles-v2",
-                  "reference/bulk-addupdate-roles",
-                  "reference/bulk-delete-roles",
-                  "reference/get-roles-count",
-                  "reference/get-all-roles"
+                  "/openapi.yaml GET /resources/roles/{id}",
+                  "/openapi.yaml POST /resources/roles/SALES_DIRECTOR_001",
+                  "/openapi.yaml DELETE /resources/roles/{id}",
+                  "/openapi.yaml POST /resources/roles/v2/bulk",
+                  "/openapi.yaml POST /resources/roles/bulk",
+                  "/openapi.yaml DELETE /resources/roles/bulk",
+                  "/openapi.yaml GET /resources/roles/count",
+                  "/openapi.yaml GET /resources/roles"
                 ]
               },
               {
                 "group": "Role Skills API",
                 "pages": [
-                  "reference/roles-skills-by-role-and-date-after",
-                  "reference/returns-the-number-of-the-existing-active-entities",
-                  "reference/returns-a-list-of-the-available-entities"
+                  "/openapi.yaml GET /resources/rolesskills/getAllForRoleAfterDate",
+                  "/openapi.yaml GET /resources/rolesskills/count",
+                  "/openapi.yaml GET /resources/rolesskills"
                 ]
               },
               {
                 "group": "Role Talents API",
                 "pages": [
-                  "reference/roles-skills-by-role-and-date-after",
-                  "reference/returns-the-number-of-the-existing-active-entities",
-                  "reference/returns-a-list-of-the-available-entities"
+                  "/openapi.yaml GET /resources/rolestalents/getAllForRoleAfterDate",
+                  "/openapi.yaml GET /resources/rolestalents/count",
+                  "/openapi.yaml GET /resources/rolestalents"
                 ]
               },
               {
                 "group": "Role Properties API",
                 "pages": [
-                  "reference/get-role-property",
-                  "reference/addupdate-role-property",
-                  "reference/delete-role-property",
-                  "reference/bulk-addupdate-role-properties-v2",
-                  "reference/bulk-addupdate-role-properties",
-                  "reference/bulk-delete-role-properties",
-                  "reference/get-role-properties-count",
-                  "reference/get-all-role-properties"
+                  "/openapi.yaml GET /resources/role-property/{id}",
+                  "/openapi.yaml POST /resources/role-property/{id}",
+                  "/openapi.yaml DELETE /resources/role-property/{id}",
+                  "/openapi.yaml POST /resources/role-property/v2/bulk",
+                  "/openapi.yaml POST /resources/role-property/bulk",
+                  "/openapi.yaml DELETE /resources/role-property/bulk",
+                  "/openapi.yaml GET /resources/role-property/count",
+                  "/openapi.yaml GET /resources/role-property"
                 ]
               },
               {
                 "group": "Role Property Option",
                 "pages": [
-                  "reference/get-role-property-option",
-                  "reference/addupdate-role-property-option",
-                  "reference/delete-role-property-option",
-                  "reference/bulk-addupdate-role-properties-options-v2",
-                  "reference/bulk-addupdate-role-properties-options",
-                  "reference/bulk-delete-role-properties-options",
-                  "reference/get-role-properties-options-count",
-                  "reference/get-all-role-properties-options"
+                  "/openapi.yaml GET /resources/role-property-option/{id}",
+                  "/openapi.yaml POST /resources/role-property-option/{id}",
+                  "/openapi.yaml DELETE /resources/role-property-option/{id}",
+                  "/openapi.yaml POST /resources/role-property-option/v2/bulk",
+                  "/openapi.yaml POST /resources/role-property-option/bulk",
+                  "/openapi.yaml DELETE /resources/role-property-option/bulk",
+                  "/openapi.yaml GET /resources/role-property-option/count",
+                  "/openapi.yaml GET /resources/role-property-option"
                 ]
               },
               {
                 "group": "Role Level Name API",
                 "pages": [
-                  "reference/get-roles-levels-custom-name",
-                  "reference/addupdate-roles-levels-custom-name",
-                  "reference/delete-roles-levels-custom-name",
-                  "reference/bulk-addupdate-roles-levels-custom-names-v2",
-                  "reference/bulk-addupdate-roles-levels-custom-names",
-                  "reference/bulk-delete-roles-levels-custom-names",
-                  "reference/get-roles-levels-custom-names-count",
-                  "reference/get-all-roles-levels-custom-names"
+                  "/openapi.yaml GET /resources/role-level-name/{id}",
+                  "/openapi.yaml POST /resources/role-level-name/{id}",
+                  "/openapi.yaml DELETE /resources/role-level-name/{id}",
+                  "/openapi.yaml POST /resources/role-level-name/v2/bulk",
+                  "/openapi.yaml POST /resources/role-level-name/bulk",
+                  "/openapi.yaml DELETE /resources/role-level-name/bulk",
+                  "/openapi.yaml GET /resources/role-level-name/count",
+                  "/openapi.yaml GET /resources/role-level-name"
                 ]
               }
             ]
@@ -343,88 +343,88 @@
               {
                 "group": "Business Units API",
                 "pages": [
-                  "reference/get-business-unit",
-                  "reference/save-business-unit",
-                  "reference/delete-business-unit",
-                  "reference/bulk-addupdate-business-units-v2",
-                  "reference/bulk-addupdate-business-units",
-                  "reference/bulk-delete-business-units",
-                  "reference/get-business-units-count",
-                  "reference/get-all-business-units"
+                  "/openapi.yaml GET /resources/businessunits/{id}",
+                  "/openapi.yaml POST /resources/businessunits/{id}",
+                  "/openapi.yaml DELETE /resources/businessunits/{id}",
+                  "/openapi.yaml POST /resources/businessunits/v2/bulk",
+                  "/openapi.yaml POST /resources/businessunits/bulk",
+                  "/openapi.yaml DELETE /resources/businessunits/bulk",
+                  "/openapi.yaml GET /resources/businessunits/count",
+                  "/openapi.yaml GET /resources/businessunits"
                 ]
               },
               {
                 "group": "Functions API",
                 "pages": [
-                  "reference/get-function",
-                  "reference/addupdate-function",
-                  "reference/delete-function",
-                  "reference/bulk-addupdate-functions-v2",
-                  "reference/bulk-addupdate-functions",
-                  "reference/bulk-delete-functions",
-                  "reference/get-functions-count",
-                  "reference/get-all-functions"
+                  "/openapi.yaml GET /resources/functions/{id}",
+                  "/openapi.yaml POST /resources/functions/{id}",
+                  "/openapi.yaml DELETE /resources/functions/{id}",
+                  "/openapi.yaml POST /resources/functions/v2/bulk",
+                  "/openapi.yaml POST /resources/functions/bulk",
+                  "/openapi.yaml DELETE /resources/functions/bulk",
+                  "/openapi.yaml GET /resources/functions/count",
+                  "/openapi.yaml GET /resources/functions"
                 ]
               },
               {
                 "group": "Organization Units API",
                 "pages": [
-                  "reference/get-business-organization-unit",
-                  "reference/addupdate-organization-units",
-                  "reference/delete-organization-units",
-                  "reference/bulk-addupdate-organization-units-v2",
-                  "reference/bulk-addupdate-organization-units",
-                  "reference/bulk-delete-organization-units",
-                  "reference/get-organization-units-count",
-                  "reference/get-all-organization-units"
+                  "/openapi.yaml GET /resources/organization-units/{id}",
+                  "/openapi.yaml POST /resources/organization-units/{id}",
+                  "/openapi.yaml DELETE /resources/organization-units/{id}",
+                  "/openapi.yaml POST /resources/organization-units/v2/bulk",
+                  "/openapi.yaml POST /resources/organization-units/bulk",
+                  "/openapi.yaml DELETE /resources/organization-units/bulk",
+                  "/openapi.yaml GET /resources/organization-units/count",
+                  "/openapi.yaml GET /resources/organization-units"
                 ]
               },
               {
                 "group": "Organization Unit Mapping API",
                 "pages": [
-                  "reference/bulk-addupdate-organization-unit-mappings-v2",
-                  "reference/accepts-a-list-of-organization-unit-mappings-to-delete",
-                  "reference/get-organization-unit-mappings-count",
-                  "reference/returns-a-list-of-the-available-entities"
+                  "/openapi.yaml POST /resources/organization-unit-mappings/v2/bulk",
+                  "/openapi.yaml DELETE /resources/organization-unit-mappings/v2/bulk",
+                  "/openapi.yaml GET /resources/organization-unit-mappings/count",
+                  "/openapi.yaml GET /resources/rolesskills"
                 ]
               },
               {
                 "group": "Organization Unit Property Categories API",
                 "pages": [
-                  "reference/get-organization-units-category",
-                  "reference/addupdate-organization-units-categories",
-                  "reference/delete-organization-units-categories",
-                  "reference/bulk-addupdate-organization-units-categories-v2",
-                  "reference/bulk-addupdate-organization-units-categories",
-                  "reference/bulk-delete-organization-units-categories",
-                  "reference/get-organization-units-categories-count",
-                  "reference/get-all-organization-units-categories"
+                  "/openapi.yaml GET /resources/organization-unit-property-categories/{id}",
+                  "/openapi.yaml POST /resources/organization-unit-property-categories/{id}",
+                  "/openapi.yaml DELETE /resources/organization-unit-property-categories/{id}",
+                  "/openapi.yaml POST /resources/organization-unit-property-categories/v2/bulk",
+                  "/openapi.yaml POST /resources/organization-unit-property-categories/bulk",
+                  "/openapi.yaml DELETE /resources/organization-unit-property-categories/bulk",
+                  "/openapi.yaml GET /resources/organization-unit-property-categories/count",
+                  "/openapi.yaml GET /resources/organization-unit-property-categories"
                 ]
               },
               {
                 "group": "Organization Unit Property Options API",
                 "pages": [
-                  "reference/get-organization-units-option",
-                  "reference/addupdate-organization-unit-options",
-                  "reference/delete-organization-units-options",
-                  "reference/bulk-addupdate-organization-units-options-v2",
-                  "reference/bulk-addupdate-organization-unit-options",
-                  "reference/bulk-delete-organization-units-options",
-                  "reference/get-organization-units-options-count",
-                  "reference/get-all-organization-units-options"
+                  "/openapi.yaml GET /resources/organization-unit-property-options/{id}",
+                  "/openapi.yaml POST /resources/organization-unit-property-options/{id}",
+                  "/openapi.yaml DELETE /resources/organization-unit-property-options/{id}",
+                  "/openapi.yaml POST /resources/organization-unit-property-options/v2/bulk",
+                  "/openapi.yaml POST /resources/organization-unit-property-options/bulk",
+                  "/openapi.yaml DELETE /resources/organization-unit-property-options/bulk",
+                  "/openapi.yaml GET /resources/organization-unit-property-options/count",
+                  "/openapi.yaml GET /resources/organization-unit-property-options"
                 ]
               },
               {
                 "group": "Locations API",
                 "pages": [
-                  "reference/get-business-location",
-                  "reference/addupdate-business-locations",
-                  "reference/delete-business-locations",
-                  "reference/bulk-addupdate-business-locations-v2",
-                  "reference/bulk-addupdate-business-locations",
-                  "reference/bulk-delete-business-locations",
-                  "reference/get-business-locations-count",
-                  "reference/get-all-business-locations"
+                  "/openapi.yaml GET /resources/business-locations/{id}",
+                  "/openapi.yaml POST /resources/business-locations/{id}",
+                  "/openapi.yaml DELETE /resources/business-locations/{id}",
+                  "/openapi.yaml POST /resources/business-locations/v2/bulk",
+                  "/openapi.yaml POST /resources/business-locations/bulk",
+                  "/openapi.yaml DELETE /resources/business-locations/bulk",
+                  "/openapi.yaml GET /resources/business-locations/count",
+                  "/openapi.yaml GET /resources/business-locations"
                 ]
               }
             ]
@@ -435,27 +435,27 @@
               {
                 "group": "Demographics API",
                 "pages": [
-                  "reference/get-demographic",
-                  "reference/save-demographic",
-                  "reference/delete-demographic",
-                  "reference/bulk-addupdate-demographics-v2",
-                  "reference/bulk-addupdate-demographics",
-                  "reference/bulk-delete-demographics",
-                  "reference/get-demographics-count",
-                  "reference/get-all-demographics"
+                  "/openapi.yaml GET /resources/demography/{id}",
+                  "/openapi.yaml POST /resources/demography/{id}",
+                  "/openapi.yaml DELETE /resources/demography/{id}",
+                  "/openapi.yaml POST /resources/demography/v2/bulk",
+                  "/openapi.yaml POST /resources/demography/bulk",
+                  "/openapi.yaml DELETE /resources/demography/bulk",
+                  "/openapi.yaml GET /resources/demography/count",
+                  "/openapi.yaml GET /resources/demography"
                 ]
               },
               {
                 "group": "Demographic Options API",
                 "pages": [
-                  "reference/get-demography-option",
-                  "reference/demography-option-experience",
-                  "reference/delete-demography-option",
-                  "reference/bulk-addupdate-demography-options-v2",
-                  "reference/bulk-addupdate-demography-options",
-                  "reference/bulk-demography-option",
-                  "reference/get-demography-options-count",
-                  "reference/get-all-demography-options"
+                  "/openapi.yaml GET /resources/demographyoptions/{id}",
+                  "/openapi.yaml POST /resources/demographyoptions/{id}",
+                  "/openapi.yaml DELETE /resources/demographyoptions/{id}",
+                  "/openapi.yaml POST /resources/demographyoptions/v2/bulk",
+                  "/openapi.yaml POST /resources/demographyoptions/bulk",
+                  "/openapi.yaml DELETE /resources/demographyoptions/bulk",
+                  "/openapi.yaml GET /resources/demographyoptions/count",
+                  "/openapi.yaml GET /resources/demographyoptions"
                 ]
               }
             ]
@@ -466,15 +466,15 @@
               {
                 "group": "Mentor Requests API",
                 "pages": [
-                  "reference/get-mentor-requests-count",
-                  "reference/get-all-mentor-requests"
+                  "/openapi.yaml GET /resources/mentorrequest/count",
+                  "/openapi.yaml GET /resources/mentorrequest"
                 ]
               },
               {
                 "group": "Mentor Mentees API",
                 "pages": [
-                  "reference/get-mentor-mentees-count",
-                  "reference/get-all-mentor-mentees"
+                  "/openapi.yaml GET /resources/mentormentees/count",
+                  "/openapi.yaml GET /resources/mentormentees"
                 ]
               }
             ]
@@ -485,55 +485,55 @@
               {
                 "group": "Goals API",
                 "pages": [
-                  "reference/get-goal",
-                  "reference/delete-goal",
-                  "reference/get-all-goals-with-privacy-settings",
-                  "reference/get-goals-count",
-                  "reference/bulk-delete-goals",
-                  "reference/get-all-goals"
+                  "/openapi.yaml GET /resources/goals/{id}",
+                  "/openapi.yaml DELETE /resources/goals/{id}",
+                  "/openapi.yaml GET /resources/goals/v2",
+                  "/openapi.yaml GET /resources/goals/count",
+                  "/openapi.yaml DELETE /resources/goals/bulk",
+                  "/openapi.yaml GET /resources/goals"
                 ]
               },
               {
                 "group": "Actions API",
                 "pages": [
-                  "reference/get-actions",
-                  "reference/get-all-actions-with-privacy-settings",
-                  "reference/get-actions-count",
-                  "reference/get-all-actions"
+                  "/openapi.yaml GET /resources/actions/{id}",
+                  "/openapi.yaml GET /resources/actions/v2",
+                  "/openapi.yaml GET /resources/actions/count",
+                  "/openapi.yaml GET /resources/actions"
                 ]
               },
               {
                 "group": "Feedback API",
                 "pages": [
-                  "reference/get-feedback",
-                  "reference/addupdate-feedback",
-                  "reference/bulk-addupdate-feedback-v2",
-                  "reference/bulk-addupdate-feedback",
-                  "reference/get-feedback-count",
-                  "reference/get-all-feedback"
+                  "/openapi.yaml GET /resources/feedback/{id}",
+                  "/openapi.yaml POST /resources/feedback/{id}",
+                  "/openapi.yaml POST /resources/feedback/v2/bulk",
+                  "/openapi.yaml POST /resources/feedback/bulk",
+                  "/openapi.yaml GET /resources/feedback/count",
+                  "/openapi.yaml GET /resources/feedback"
                 ]
               },
               {
                 "group": "Vision API",
                 "pages": [
-                  "reference/get-vision",
-                  "reference/get-vision-count",
-                  "reference/get-all-vision"
+                  "/openapi.yaml GET /resources/vision/{id}",
+                  "/openapi.yaml GET /resources/vision/count",
+                  "/openapi.yaml GET /resources/vision"
                 ]
               },
               {
                 "group": "Purpose API",
                 "pages": [
-                  "reference/get-purpose",
-                  "reference/get-purpose-count",
-                  "reference/get-all-purpose"
+                  "/openapi.yaml GET /resources/purpose/{id}",
+                  "/openapi.yaml GET /resources/purpose/count",
+                  "/openapi.yaml GET /resources/purpose"
                 ]
               },
               {
                 "group": "Session Notes API",
                 "pages": [
-                  "reference/get-session-notes-count",
-                  "reference/get-all-session-notes"
+                  "/openapi.yaml GET /resources/sessionnotes/count",
+                  "/openapi.yaml GET /resources/sessionnotes"
                 ]
               }
             ]
@@ -544,55 +544,55 @@
               {
                 "group": "Jobs API",
                 "pages": [
-                  "reference/get-job",
-                  "reference/addupdate-job",
-                  "reference/delete-job",
-                  "reference/bulk-addupdate-jobs-v2",
-                  "reference/bulk-addupdate-jobs",
-                  "reference/bulk-delete-jobs",
-                  "reference/get-jobs-count",
-                  "reference/get-all-jobs"
+                  "/openapi.yaml GET /resources/jobs/{id}",
+                  "/openapi.yaml POST /resources/jobs/{id}",
+                  "/openapi.yaml DELETE /resources/jobs/{id}",
+                  "/openapi.yaml POST /resources/jobs/v2/bulk",
+                  "/openapi.yaml POST /resources/jobs/bulk",
+                  "/openapi.yaml DELETE /resources/jobs/bulk",
+                  "/openapi.yaml GET /resources/jobs/count",
+                  "/openapi.yaml GET /resources/jobs"
                 ]
               },
               {
                 "group": "Gigs API",
                 "pages": [
-                  "reference/get-gig",
-                  "reference/get-gigs-count",
-                  "reference/get-all-gigs"
+                  "/openapi.yaml GET /resources/gigs/{id}",
+                  "/openapi.yaml GET /resources/gigs/count",
+                  "/openapi.yaml GET /resources/gigs"
                 ]
               },
               {
                 "group": "Experience API",
                 "pages": [
-                  "reference/get-experience",
-                  "reference/save-experience",
-                  "reference/delete-experience",
-                  "reference/bulk-addupdate-experiences-v2",
-                  "reference/bulk-addupdate-experiences",
-                  "reference/bulk-delete-experiences",
-                  "reference/get-experiences-count",
-                  "reference/get-all-experiences"
+                  "/openapi.yaml GET /resources/experience/{id}",
+                  "/openapi.yaml POST /resources/experience/{id}",
+                  "/openapi.yaml DELETE /resources/experience/{id}",
+                  "/openapi.yaml POST /resources/experience/v2/bulk",
+                  "/openapi.yaml POST /resources/experience/bulk",
+                  "/openapi.yaml DELETE /resources/experience/bulk",
+                  "/openapi.yaml GET /resources/experience/count",
+                  "/openapi.yaml GET /resources/experience"
                 ]
               },
               {
                 "group": "Qualifications API",
                 "pages": [
-                  "reference/get-qualification",
-                  "reference/addupdate-qualification",
-                  "reference/delete-qualification",
-                  "reference/bulk-addupdate-qualifications-v2",
-                  "reference/bulk-addupdate-qualifications",
-                  "reference/bulk-delete-qualifications",
-                  "reference/get-qualifications-count",
-                  "reference/get-all-qualifications"
+                  "/openapi.yaml GET /resources/qualifications/{id}",
+                  "/openapi.yaml POST /resources/qualifications/{id}",
+                  "/openapi.yaml DELETE /resources/qualifications/{id}",
+                  "/openapi.yaml POST /resources/qualifications/v2/bulk",
+                  "/openapi.yaml POST /resources/qualifications/bulk",
+                  "/openapi.yaml DELETE /resources/qualifications/bulk",
+                  "/openapi.yaml GET /resources/qualifications/count",
+                  "/openapi.yaml GET /resources/qualifications"
                 ]
               },
               {
                 "group": "Privacy Settings API",
                 "pages": [
-                  "reference/returns-a-list-of-user-privacy-decisions-grouped-by-user",
-                  "reference/get-all-user-privacy-settings"
+                  "/openapi.yaml GET /resources/privacy-settings/v2",
+                  "/openapi.yaml GET /resources/privacy-settings"
                 ]
               }
             ]
