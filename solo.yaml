@@ -1,0 +1,49 @@
+openapi: 3.0.0
+info:
+  title: Fuel50 API
+  version: 1.0.0
+  description: >-
+    This is a Fuel50 API server.<br/>Please make sure you are have valid OAuth
+    authentication (by clicking button under any request) when you use api
+    calls, otherwise <b>you will be logged out</b>.<br/><a
+    href='/logout'><b>Logout</b></a>
+
+
+    Contact Support:
+     Name: Fuel50
+     Email: help@fuel50.com
+servers:
+  - url: 'https://www.example.com'
+paths:
+  /resources/v2/skills/{id}:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        description: (Required) external id for the skill
+        example: AB1001
+        schema:
+          type: string
+    get:
+      summary: Retrieve Skill
+      tags:
+        - resources
+        - v2
+        - skills
+        - '{id}'
+      parameters:
+        - name: Accept
+          in: header
+          required: false
+          example: '*/*'
+          schema:
+            type: string
+      responses:
+        '200':
+          headers:
+            Content-Type:
+              schema:
+                type: string
+              example: '*/*'
+          description: OK
+  
